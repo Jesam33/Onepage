@@ -1236,7 +1236,7 @@ svg {
     transition: all 0.4s;
 }
 .sup {
-    overflow: hidden !important;
+    overflow-x: hidden !important;
 }
 /* @media only screen and (max-width: 900px) {
     .accor-container {
