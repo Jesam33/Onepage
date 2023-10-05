@@ -1205,16 +1205,7 @@ svg {
 .social-links a:hover {
     background: #378fce;
 }
-/* .top-btn {
-    position: absolute !important;
-    position: fixed !important;
-    bottom: 1%;
-    right: 2%;
-}
-.top-btn a:focus {
-    display: none !important;
-    transition: 0.3s;
-} */
+
 .back-to-top {
     position: fixed;
     opacity: 0.1 !important;
@@ -1230,21 +1221,8 @@ svg {
 .sup {
     overflow-x: hidden !important;
 }
-/* @media only screen and (max-width: 900px) {
-    .accor-container {
-        padding: 0px 100px;
-    }
-}
 
-@media only screen and (max-width: 600px) {
-    .accor-container {
-        padding: 0px 10px;
-    }
-    .vid-wrapper {
-        left: 41%;
-        bottom: 30%;
-    }
-} */
-@media screen and (max-width: 425px) {
-
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    border: none !important;
 }
