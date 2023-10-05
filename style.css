@@ -111,23 +111,15 @@ header {
     font-family:'Open Sans', sans-serif;
 }
 main{
-    background-color: url("./img/about-video.jpg") !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-}
-/* #home {
-    background-image: url(../img/hero-bg.jpg);
     background: linear-gradient(to bottom,
-            rgba(255, 255, 255, 0.8),
-            rgba(255, 255, 255, 0.8)),
-        url(../img/hero-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)),
+        url(./img/main-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
 .card {
     transition:  all ease-in-out 0.4s;
     border-radius: 10px !important;
