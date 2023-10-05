@@ -211,12 +211,8 @@ main{
     filter: grayscale(0);
  } */
 
- .about-video {
-    background: url('./img/about-video.jpg') !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    /* background-attachment: fixed; */
+ .about-video  {
+    width: 100% !important;
  }
  .brands ul {
     list-style: none;
