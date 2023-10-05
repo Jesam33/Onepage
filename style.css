@@ -111,12 +111,7 @@ header {
     font-family:'Open Sans', sans-serif;
 }
 main{
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.768),
-        rgba(255, 255, 255, 0.768)
-    ),
-    url('./img/about-video.jpg') !important;
+    background-color: url("./img/about-video.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
