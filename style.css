@@ -1254,3 +1254,8 @@ svg {
         bottom: 30%;
     }
 } */
+@media screen and (max-width: 425px) {
+    body {
+        overflow-x: hidden !important;
+    }
+}
